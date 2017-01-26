@@ -2,17 +2,56 @@
 <html>
 <head>
 	<title>Andy Scott's Bio</title>
+		<style type="text/css">
+			body {
+				background-color: navy;
+			}
+			h1 {
+				text-align: center;
+				background-color: orange;
+				font-family: arial;
+			}
+
+			div {
+				background-color: lightgreen;
+				font-family: arial;
+			}
+
+			a {
+				color: red;
+			}
+
+			.left-section {
+				float: left;
+				width: 30%;
+				color: white;
+			}
+
+			.right-section{
+				float: left;
+				width: 70%;
+				color: white;
+			}
+		</style>
 </head>
 <body>
-	<h1>Andy Scott</h1>
-	<p>
-	<img src="andy.jpg" width="200px" height="200px">
-	<p>Andy is an IT Professional with 16 years of experience.</p>
+	<header>
+		<h1>Student Bio</h1>
+	</header>
+<div>
+	<section class="left-section">
+		<h2>Andy Scott</h2>
+			<img src="andy.jpg" width="200px" height="200px">
+			<p>Andy is an IT Professional with 16 years of experience.</p>
+	</section>
+	<section class="right-section">
 	<h2>Contact Info</h2>
 		<ul>
 			<li>Email: <a href="mailto:andy@aoscott.com">andy@aoscott.com</a></li>
 			<li>Github: <a href="https://github.com/aoscott">github.com/aoscott</a></li>
 			<li>Portfolio: <a href="">Coming Soon!</a></li>
-		</ul>	
+		</ul>
+	</section>
+</div>
 </body>
 </html>
